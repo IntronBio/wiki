@@ -1,0 +1,184 @@
+# ============================================================
+# Wiki 企业文档站 - MkDocs 全局配置文件
+# ============================================================
+site_name: AIEdge Wiki
+site_description: 氢春科技 - 微型AI智能体服务器企业文档中心
+site_author: 上海氢春生物科技有限公司
+site_url: http://localhost:8000
+
+# 语言设置
+theme:
+  language: zh
+  name: material
+
+# ------------------------------------------------------------
+# 仓库信息（本地预览可留空，GitHub 备份后可填写）
+# ------------------------------------------------------------
+repo_name: wiki
+repo_url: ''
+edit_uri: ''
+
+# ------------------------------------------------------------
+# 版权信息
+# ------------------------------------------------------------
+copyright: Copyright &copy; 2026 上海氢春生物科技有限公司 | AIEdge 微型AI智能体服务器
+
+# ------------------------------------------------------------
+# 主题详细配置
+# ------------------------------------------------------------
+theme:
+  name: material
+  language: zh
+  custom_dir: docs/overrides
+
+  # --- Logo 和图标 ---
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+
+  # --- 调色板：经典深蓝企业风格 + 浅色/深色模式 ---
+  palette:
+    # 浅色模式（默认）
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换至深色模式
+    # 深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至浅色模式
+
+  # --- 字体 ---
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  # --- 功能开关 ---
+  features:
+    # 顶部导航
+    - navigation.top
+    - navigation.tracking
+    # 左侧导航
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    # 右侧锚点目录
+    - toc.follow
+    - toc.integrate
+    # 搜索
+    - search.suggest
+    - search.highlight
+    - search.share
+    # 内容增强
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+# ------------------------------------------------------------
+# 插件配置（纯本地离线运行，无联网依赖）
+# ------------------------------------------------------------
+plugins:
+  - search:
+      lang: zh
+      separator: '[\s​\-_,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|\.\s+'
+
+# ------------------------------------------------------------
+# Markdown 扩展（支持流程图、高亮、任务列表等）
+# ------------------------------------------------------------
+markdown_extensions:
+  # Python Markdown 基础扩展
+  - toc:
+      permalink: true
+      title: 本页目录
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - tables
+  - abbr
+
+  # 代码高亮
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      # 支持流程图
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  # 内容增强
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# ------------------------------------------------------------
+# 导航结构（对标 LuatOS 站点的多级折叠目录风格）
+# ------------------------------------------------------------
+nav:
+  - 🏠 首页: index.md
+  - 🏢 公司介绍: company.md
+  - 🚀 快速入门:
+      - 快速入门总览: quickstart/index.md
+      - 设备简介: quickstart/overview.md
+      - 硬件参数: quickstart/specs.md
+      - 开箱检查: quickstart/unbox.md
+      - 首次部署流程: quickstart/deploy.md
+      - 局域网快速启动: quickstart/lan-start.md
+  - 📖 设备使用手册:
+      - 使用手册总览: manual/index.md
+      - 设备安装规范: manual/install.md
+      - 开机与关机: manual/power.md
+      - 基础配置: manual/config.md
+      - 局域网联网设置: manual/network.md
+      - 日常运维: manual/maintenance.md
+  - ⚙️ 功能说明:
+      - 核心功能: features/index.md
+      - AI推理能力: features/inference.md
+      - 本地部署特性: features/local-deploy.md
+      - 适用场景: features/scenarios.md
+      - 消息通道接入: features/wechat-integration.md
+  - ❓ 常见问题: faq.md
+  - 📚 更多资料: resources.md
+
+# ------------------------------------------------------------
+# 额外 CSS / JS
+# ------------------------------------------------------------
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# ------------------------------------------------------------
+# 额外配置
+# ------------------------------------------------------------
+extra:
+  # 社交链接
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+      name: GitHub
+  # 版本信息
+  version:
+    provider: mike
