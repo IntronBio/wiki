@@ -19,7 +19,7 @@ description: 上海氢春生物科技有限公司企业概况
 
 === "硬件产品"
 
-    - **AIEdge 微型AI智能体服务器** — 基于 H618 + Ubuntu 22.04，预装 OpenClaw、Hermes Agent、Claude Code
+    - **AIEdge 微型AI智能体服务器** — 基于 H618低功耗芯片 + Ubuntu 22.04，预装 OpenClaw、Hermes Agent、Claude Code
     - **AIEdge 1GB** — 入门版，面向个人开发者与轻量智能体应用
     - **AIEdge 2GB** — 进阶版，小团队多智能体并发
     - **AIEdge 4GB** — 旗舰版，多智能体 + 多通道同时运行
@@ -71,7 +71,7 @@ API Key 与智能体对话记忆全部存储在设备本地。API 调用仅传�
 
 ### :material-puzzle: 云端模型兼容
 
-支持 **Anthropic Claude / OpenAI GPT / OpenRouter / DeepSeek / 通义千问** 等所有主流 LLM API 供应商。智能体框架自动适配不同 API 格式，一个 Key 管所有。
+支持 **Anthropic Claude / OpenAI GPT / OpenRouter / DeepSeek / 通义千问** 等所有主流 LLM API 供应商。
 
 </div>
 
@@ -89,7 +89,7 @@ API Key 与智能体对话记忆全部存储在设备本地。API 调用仅传�
 
 ## 服务承诺
 
-- :material-check-circle: **产品即服务** — 智能体框架持续 OTA 升级，新功能按月迭代
+- :material-check-circle: **产品即服务** — 通过技术交流群，持续提供后续技术支持
 - :material-check-circle: **48 小时响应** — 技术问题 48 小时内响应，紧急故障 4 小时到场
 - :material-check-circle: **7 天试用** — 支持 7 天无理由退换，降低采购风险
 - :material-check-circle: **终身技术支持** — 产品生命周期内提供持续技术咨询与支持
@@ -98,6 +98,10 @@ API Key 与智能体对话记忆全部存储在设备本地。API 调用仅传�
 
 ## 联系我们
 
+<div class="grid" markdown="1">
+
+<div markdown="1">
+
 | 渠道 | 信息 |
 |------|------|
 | :material-email: 商务合作 | info@hybio.tech |
@@ -105,3 +109,28 @@ API Key 与智能体对话记忆全部存储在设备本地。API 调用仅传�
 | :material-phone: 联系电话 | 17501621170 |
 | :material-map-marker: 公司地址 | 上海市徐汇区漕宝路103号 |
 | :material-web: 官方网站 | https://www.hybio.tech |
+
+</div>
+
+<div markdown="1" style="display:flex;gap:24px;justify-content:center;align-items:flex-start;padding-top:16px;">
+
+<figure style="text-align:center;margin:0;">
+  <img src="../assets/wx.jpg" alt="技术微信号" style="width:150px;border-radius:8px;">
+  <figcaption style="font-size:0.85rem;margin-top:6px;">💬 技术微信<br/>添加后拉入技术交流群</figcaption>
+</figure>
+
+<figure style="text-align:center;margin:0;">
+  <img src="../assets/gzh.jpg" alt="公众号二维码" style="width:150px;border-radius:8px;">
+  <figcaption style="font-size:0.85rem;margin-top:6px;">📢 公众号<br/>关注获取最新资讯</figcaption>
+</figure>
+
+<figure style="text-align:center;margin:0;">
+  <a href="https://item.taobao.com/item.htm?id=1051010911820&bc_fl_src=tbsms_crm_490298545_deliver$3018876258545_0" target="_blank">
+    <img src="../assets/tb.png" alt="淘宝店铺二维码" style="width:150px;border-radius:8px;">
+  </a>
+  <figcaption style="font-size:0.85rem;margin-top:6px;">🛒 淘宝店铺<br/>微信扫码跳转</figcaption>
+</figure>
+
+</div>
+
+</div>

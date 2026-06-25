@@ -26,11 +26,11 @@ graph LR
 
 <div class="grid cards" markdown="1">
 
-- :material-information-outline: **[设备简介](overview.md)** — 了解 AIEdge 的产品定位与智能体服务器概念
-- :material-motherboard: **[硬件参数](specs.md)** — H618 芯片参数、接口说明、预装软件栈
-- :material-package-variant-closed: **[开箱检查](unbox.md)** — 收货后的检查清单与配件核对
-- :material-rocket-launch: **[首次部署流程](deploy.md)** — SSH登录、API Key配置、智能体服务启动
-- :material-lan: **[局域网快速启动](lan-start.md)** — 日常使用：消息通道接入、定时任务设置
+- **[设备简介](overview.md)** — 了解 AIEdge 的产品定位与智能体服务器概念
+- **[硬件参数](specs.md)** — H618 芯片参数、接口说明、预装软件栈
+- **[开箱检查](unbox.md)** — 收货后的检查清单与配件核对
+- **[首次部署流程](deploy.md)** — SSH登录、API Key配置、智能体服务启动
+- **[局域网快速启动](lan-start.md)** — 日常使用：消息通道接入、定时任务设置
 
 </div>
 
@@ -41,9 +41,9 @@ graph LR
 开始之前，请确保您已准备以下环境：
 
 - [x] AIEdge 微型AI智能体服务器 ×1
-- [x] Type-C 电源线（随设备附带）
+- [x] Type-C 电源线（随设备附带，部分型号提供）
 - [x] 网线 ×1（Cat5e 及以上）
-- [x] 一台可联网的电脑（用于 SSH 登录管理）
+- [x] 一台可联网的电脑（用于 SSH 登录管理），或 HDMI 线 + 显示器 + 键盘（直连操作）
 - [x] 一个 LLM API Key（Anthropic / OpenAI / OpenRouter 等，至少一个）
 - [x] 局域网路由器（提供 DHCP 服务 + 互联网出口）
 

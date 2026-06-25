@@ -1,7 +1,7 @@
 # ============================================================
 # Wiki 企业文档站 - MkDocs 全局配置文件
 # ============================================================
-site_name: AIEdge Wiki
+site_name: AIEdge Wiki <small>BETA</small>
 site_description: 氢春科技 - 微型AI智能体服务器企业文档中心
 site_author: 上海氢春生物科技有限公司
 site_url: http://localhost:8000
