@@ -8,7 +8,7 @@ hide:
 <!-- Hero 区域 -->
 <div class="home-hero" markdown="1">
 
-![AIEdge Logo](assets/logo.svg){: .hero-logo }
+![AIEdge Logo](assets/logo-han.svg){: .hero-logo }
 
 # AIEdge 微型AI智能体服务器
 

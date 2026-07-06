@@ -7,7 +7,7 @@ description: 上海氢春生物科技有限公司企业概况
 
 ## 企业概况
 
-![AIEdge Logo](assets/logo.svg){: style="width:80px;display:block;margin:0 auto 16px;" }
+![AIEdge Logo](assets/logo-han.svg){: style="width:300px;display:block;margin:0 auto 16px;" }
 
 **上海氢春生物科技有限公司**（HydroSpring Biotechnology Co., Ltd.）成立于 2026 年，总部位于上海。
 

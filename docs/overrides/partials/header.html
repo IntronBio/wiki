@@ -55,8 +55,11 @@
         {% include "partials/search.html" %}
       {% endif %}
     {% endif %}
-    <a href="{{ 'company/' | url }}#_11" class="md-header__button" title="联系我们" style="font-size:.7rem;font-weight:600;white-space:nowrap;padding:0 12px;color:var(--md-typeset-color);opacity:.7;">
-      联系我们
+    <a href="{{ 'company/' | url }}#_11" class="md-header__button" title="{% if config.theme.language == 'en' %}Contact Us{% else %}联系我们{% endif %}" style="font-size:.7rem;font-weight:600;white-space:nowrap;padding:0 12px;color:var(--md-typeset-color);opacity:.7;">
+      {% if config.theme.language == 'en' %}Contact Us{% else %}联系我们{% endif %}
+    </a>
+    <a href="https://chinabio.taobao.com/" class="md-header__button md-icon" title="{% if config.theme.language == 'en' %}Taobao Store{% else %}淘宝店铺{% endif %}" target="_blank" style="opacity:.7;">
+      {% include ".icons/material/cart.svg" %}
     </a>
     {% if config.repo_url %}
       <div class="md-header__source">

@@ -6,11 +6,6 @@ site_description: 氢春科技 - 微型AI智能体服务器企业文档中心
 site_author: 上海氢春生物科技有限公司
 site_url: http://localhost:8000
 
-# 语言设置
-theme:
-  language: zh
-  name: material
-
 # ------------------------------------------------------------
 # 仓库信息（本地预览可留空，GitHub 备份后可填写）
 # ------------------------------------------------------------
@@ -28,11 +23,10 @@ copyright: Copyright &copy; 2026 上海氢春生物科技有限公司 | AIEdge �
 # ------------------------------------------------------------
 theme:
   name: material
-  language: zh
   custom_dir: docs/overrides
 
   # --- Logo 和图标 ---
-  logo: assets/logo.svg
+  logo: assets/logo-w.svg
   favicon: assets/favicon.svg
 
   # --- 调色板：经典深蓝企业风格 + 浅色/深色模式 ---
@@ -85,6 +79,47 @@ plugins:
   - search:
       lang: zh
       separator: '[\s​\-_,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|\.\s+'
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh
+          name: 简体中文
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            "🏠 首页": "🏠 Home"
+            "🏢 公司介绍": "🏢 Company"
+            "🚀 快速入门": "🚀 Quick Start"
+            "快速入门总览": "Overview"
+            "设备简介": "Device Introduction"
+            "硬件参数": "Hardware Specifications"
+            "开箱检查": "Unboxing Checklist"
+            "首次部署流程": "First Deployment"
+            "局域网快速启动": "LAN Quick Start"
+            "📖 设备使用手册": "📖 User Manual"
+            "使用手册总览": "Manual Overview"
+            "设备安装规范": "Installation Guide"
+            "开机与关机": "Power On/Off"
+            "基础配置": "Basic Configuration"
+            "局域网联网设置": "Network Setup"
+            "日常运维": "Routine Maintenance"
+            "⚙️ 功能说明": "⚙️ Features"
+            "核心功能": "Core Features"
+            "AI推理能力": "AI Inference"
+            "本地部署特性": "Local Deployment"
+            "适用场景": "Use Cases"
+            "消息通道接入": "Messaging Integration"
+            "🛠 生产力教程": "🛠 Tutorials"
+            "教程总览": "Tutorials Overview"
+            "Claude Code + DeepSeek 网页设计": "Web Design with Claude Code + DeepSeek"
+            "配置 Gemini API": "Configure Gemini API"
+            "❓ 常见问题": "❓ FAQ"
+            "📚 更多资料": "📚 Resources"
 
 # ------------------------------------------------------------
 # Markdown 扩展（支持流程图、高亮、任务列表等）
@@ -158,6 +193,10 @@ nav:
       - 本地部署特性: features/local-deploy.md
       - 适用场景: features/scenarios.md
       - 消息通道接入: features/wechat-integration.md
+  - 🛠 生产力教程:
+      - 教程总览: tutorials/index.md
+      - Claude Code + DeepSeek 网页设计: tutorials/web-design.md
+      - 配置 Gemini API: tutorials/gemini-api.md
   - ❓ 常见问题: faq.md
   - 📚 更多资料: resources.md
 
