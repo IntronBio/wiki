@@ -132,3 +132,13 @@ From unboxing to agent live in **under 15 minutes**. Pure CLI operations, develo
 </div>
 
 </div>
+
+### International Contact
+
+| Channel | Contact |
+|------|------|
+| :material-email: Email | [info@shqcbio.cn](mailto:info@shqcbio.cn) |
+| :material-phone: Phone | +8619262160086 |
+| :material-send: Telegram | [@springtechsh](https://t.me/springtechsh) |
+| :material-whatsapp: WhatsApp | SpringTechShanghai |
+| :material-book-open-variant: Docs | [https://aiedge.shqcbio.cn/](https://aiedge.shqcbio.cn/) |
