@@ -111,8 +111,8 @@ hermes cron add "*/30 * * * *" "monitor-server-health-check"
 
 | Your Need | Recommended Solution |
 |:---------|:---------|
-| Personal dev/learning | AIEdge 1GB |
-| Small team CS/automation | AIEdge 2GB |
-| Department-level multi-agent | AIEdge 4GB |
+| Personal dev/learning | AIEdge (4GB / 128GB) |
+| Small team CS/automation | AIEdge (4GB / 128GB) |
+| Department-level multi-agent | AIEdge (4GB / 128GB), multiple units optional |
 | Classified environment, fully offline | Not applicable (requires API internet access) |
 | Large team, multi-scenario | Multiple AIEdge units, zoned deployment |

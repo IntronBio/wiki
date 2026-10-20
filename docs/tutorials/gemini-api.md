@@ -1,6 +1,6 @@
 ---
 title: 配置 Gemini API
-description: Ubuntu SSH 环境下配置 Claude Code / OpenClaw / Hermes 三套工具的 Gemini API
+description: Linux SSH 环境下配置 Claude Code / OpenClaw / Hermes 三套工具的 Gemini API
 ---
 
 # 🔑 配置 Gemini API

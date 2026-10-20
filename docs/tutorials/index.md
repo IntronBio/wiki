@@ -14,7 +14,7 @@ AIEdge 不止是一台服务器——它是你的 7×24 小时 AI 团队。以�
 <div class="grid cards" markdown="1">
 
 - **[🌐 Claude Code + DeepSeek：设计并部署一个网页](web-design.md)** — 从配置 DeepSeek API Key 开始，用 Claude Code 生成并部署一个完整的静态网页，局域网内即刻访问。
-- **[🔑 配置 Gemini API](gemini-api.md)** — Ubuntu SSH 环境下为 Claude Code / OpenClaw / Hermes 三套工具配置 Google Gemini API，含一键切换别名。
+- **[🔑 配置 Gemini API](gemini-api.md)** — Linux SSH 环境下为 Claude Code / OpenClaw / Hermes 三套工具配置 Google Gemini API，含一键切换别名。
 
 </div>
 

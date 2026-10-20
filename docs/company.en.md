@@ -19,14 +19,12 @@ The company's **Intelligent Hardware Division** focuses on micro edge AI agent s
 
 === "Hardware Products"
 
-    - **AIEdge Micro AI Agent Server** — Powered by the H618 low-power chip + Ubuntu 22.04, with OpenClaw, Hermes Agent, and Claude Code pre-installed
-    - **AIEdge 1GB** — Entry-level, for individual developers and lightweight agent applications
-    - **AIEdge 2GB** — Advanced, for small teams with multi-agent concurrency
-    - **AIEdge 4GB** — Flagship, for multi-agent + multi-channel simultaneous operation
+    - **AIEdge Micro AI Agent Server** — Powered by the H618 low-power chip + Armbian Linux v25.05, with OpenClaw, Hermes Agent, and Claude Code pre-installed
+    - **AIEdge 4GB / 128GB** — Standard configuration for multi-agent + multi-channel operation, with USB / TF card storage expansion
 
 === "Software Services"
 
-    - **AIEdge OS** — Custom operating system based on Ubuntu 22.04, with all agent frameworks pre-installed
+    - **AIEdge OS** — Custom operating system based on Armbian Linux v25.05, with all agent frameworks pre-installed
     - **Skill Marketplace** — Pre-configured agent skill templates covering office automation, customer service, code assistance, and more
     - **OTA Updates** — Regular agent framework and system patch updates
 

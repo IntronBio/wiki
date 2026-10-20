@@ -87,11 +87,11 @@ graph LR
 
 === "Single-Node Mode"
 
-    1GB / 2GB / 4GB models for independent deployment, from individual to small team use:
+    Standard configuration **4GB RAM + 128GB eMMC** for independent deployment, from individual to small team use:
     
-    - 1GB: Individual developer, 1-2 agents
-    - 2GB: Small team, 3-5 agents
-    - 4GB: Department-level, 5-10 agents
+    - 4GB RAM: Run multiple agents and messaging channels concurrently
+    - 128GB eMMC: Local storage for agent configs, memory, skills, and logs
+    - Expand storage via USB 2.0 (flash drive / portable HDD) or MicroSD (TF) card
 
 === "Multi-Node Mode"
 
@@ -105,7 +105,7 @@ graph LR
 
 ### :material-cog-sync: OTA Continuous Upgrades
 
-- Regular Ubuntu security patch updates
+- Regular Armbian security patch updates
 - Auto-upgrade for OpenClaw / Hermes / Claude Code
 - Continuously expanding pre-installed skill marketplace
 

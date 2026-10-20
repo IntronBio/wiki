@@ -55,6 +55,4 @@ description: AIEdge 微型AI智能体服务器使用手册总览
 
 | 产品型号 | 系统版本 | 适用性 |
 |:---------|:---------|:-------|
-| AIEdge 1GB | AIEdge OS v1.2+ (Ubuntu 22.04) | ✅ 完全适用 |
-| AIEdge 2GB | AIEdge OS v1.2+ (Ubuntu 22.04) | ✅ 完全适用 |
-| AIEdge 4GB | AIEdge OS v1.2+ (Ubuntu 22.04) | ✅ 完全适用 |
+| AIEdge（4GB / 128GB） | Armbian Linux v25.05（Kernel 6.12.11-edge-sunxi64） | ✅ 完全适用 |

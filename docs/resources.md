@@ -33,7 +33,7 @@ description: AIEdge 辅助资料、工具下载与技术支持
 
 | 版本 | 发布日期 | 更新内容 | 下载 |
 |------|:---------|:---------|:----:|
-| AIEdge OS v1.2.1 | 2026-06-15 | Ubuntu 22.04 + OpenClaw/Hermes/Claude Code 最新版 | [下载](#) |
+| AIEdge OS v1.2.1 | 2026-06-15 | Armbian Linux v25.05 + OpenClaw/Hermes/Claude Code 最新版 | [下载](#) |
 | AIEdge OS v1.2.0 | 2026-05-20 | 新增 AIEdge CLI、统一 API Key 管理 | [下载](#) |
 | AIEdge OS v1.1.0 | 2026-04-10 | 首个正式发布版本 | [下载](#) |
 
@@ -87,7 +87,7 @@ description: AIEdge 辅助资料、工具下载与技术支持
 ### 提交工单准备清单
 
 1. :material-checkbox-outline: 设备序列号
-2. :material-checkbox-outline: Ubuntu 版本：`lsb_release -a`
+2. :material-checkbox-outline: 系统版本：`cat /etc/armbian-release && uname -r`
 3. :material-checkbox-outline: 智能体软件版本号
 4. :material-checkbox-outline: 问题详细描述
 5. :material-checkbox-outline: 相关日志

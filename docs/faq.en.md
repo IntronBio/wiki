@@ -121,7 +121,7 @@ journalctl -u openclaw -n 50
 2. Reduce the number of concurrently active agents
 3. Regularly clean up log files
 4. Schedule periodic restarts
-5. Upgrade to the 4GB model
+5. Check memory usage with `ps aux --sort=-%mem | head` and restart services using too much memory
 
 ---
 
@@ -165,14 +165,19 @@ npm update -g @anthropic-ai/claude-code
 
 ## Purchasing & After-Sales
 
-### Q14: How to choose between 1GB / 2GB / 4GB?
+### Q14: What are the memory and storage specifications?
 
-| Scenario | Recommended |
+The current AIEdge configuration is **4GB RAM + 128GB eMMC**:
+
+| Item | Configuration |
 |------|------|
-| Personal dev/learning | 1GB |
-| Small team CS/automation | 2GB |
-| Department-level multi-agent | 4GB |
-| Large-scale multi-scenario | Multiple 4GB units + zoning |
+| RAM | 4GB LPDDR4 |
+| Onboard storage | 128GB eMMC 5.1 |
+| Expansion | USB 2.0 (flash drives / portable HDDs), MicroSD (TF) card |
+| OS | Armbian Linux v25.05 rolling (H618) |
+| Kernel | Linux 6.12.11-edge-sunxi64 |
+
+This supports multiple agents and messaging channels running concurrently. If more storage is needed, expand via USB or a TF card.
 
 ---
 
@@ -191,7 +196,7 @@ npm update -g @anthropic-ai/claude-code
 Contact technical support with the following information ready:
 
 - Device serial number (on the bottom label)
-- Ubuntu version: `lsb_release -a`
+- System version: `cat /etc/armbian-release && uname -r`
 - Agent versions: `openclaw --version && hermes --version && claude --version`
 - Description of the issue (including screenshots/logs)
 - Troubleshooting steps already attempted

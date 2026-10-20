@@ -109,8 +109,8 @@ hermes cron add "*/30 * * * *" "monitor-server-health-check"
 
 | 您的需求 | 推荐方案 |
 |:---------|:---------|
-| 个人开发/学习 | AIEdge 1GB |
-| 小团队客服/自动化 | AIEdge 2GB |
-| 部门级多智能体 | AIEdge 4GB |
+| 个人开发/学习 | AIEdge（4GB / 128GB） |
+| 小团队客服/自动化 | AIEdge（4GB / 128GB） |
+| 部门级多智能体 | AIEdge（4GB / 128GB），可多台部署 |
 | 涉密环境，完全离线 | 不适用（需 API 联网） |
 | 大型团队多场景 | 多台 AIEdge 分区部署 |

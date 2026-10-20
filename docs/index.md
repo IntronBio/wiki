@@ -14,7 +14,7 @@ hide:
 
 **7×24 小时在线 · 多通道AI智能体 · 云端大模型驱动**
 
-基于 H618 + Ubuntu 22.04，预装 Mihomo (Clash) / OpenClaw / Hermes / Claude Code，开箱即用的企业级 AI 智能体服务器。
+基于 H618 + Armbian Linux v25.05，预装 Mihomo (Clash) / OpenClaw / Hermes / Claude Code，开箱即用的企业级 AI 智能体服务器。
 
 </div>
 
@@ -72,7 +72,7 @@ hide:
 
 ## 关于 AIEdge 微型AI智能体服务器
 
-**AIEdge** 是氢春科技自主研发的桌面级微型AI智能体服务器，基于全志 H618 芯片 + Ubuntu 22.04，出厂预装 Mihomo (Clash)、OpenClaw、Hermes Agent、Claude Code 四大核心框架。设备本身不运行大模型，而是作为 **7×24 小时在线的智能体运行时 + API 网关**，通过调用云端 LLM（Anthropic Claude、OpenAI GPT、OpenRouter 等）为企业提供 AI 智能体服务。
+**AIEdge** 是氢春科技自主研发的桌面级微型AI智能体服务器，基于全志 H618 芯片 + Armbian Linux v25.05，出厂预装 Mihomo (Clash)、OpenClaw、Hermes Agent、Claude Code 四大核心框架。设备本身不运行大模型，而是作为 **7×24 小时在线的智能体运行时 + API 网关**，通过调用云端 LLM（Anthropic Claude、OpenAI GPT、OpenRouter 等）为企业提供 AI 智能体服务。
 
 ### 核心特性
 
@@ -92,7 +92,7 @@ hide:
 ```mermaid
 graph TD
     subgraph 局域网
-        A[AIEdge 智能体服务器<br/>H618 + Ubuntu 22.04]
+        A[AIEdge 智能体服务器<br/>H618 + Armbian Linux v25.05]
         A --> B[OpenClaw<br/>多通道智能体网关]
         A --> C[Hermes Agent<br/>自治AI代理]
         A --> D[Claude Code<br/>AI编程助手]
@@ -143,8 +143,9 @@ hermes setup
 
 <div class="grid cards" markdown="1">
 
-- :material-chip: **H618 芯片** — 全志 H618，四核 Cortex-A53，低功耗长时运行
-- :material-linux: **Ubuntu 22.04 LTS** — 标准 Linux 服务器环境，开发者友好
+- :material-chip: **H618 芯片** — 全志 H618，四核 Cortex-A53，4GB 内存 / 128GB eMMC
+- :material-linux: **Armbian Linux v25.05** — 内核 6.12.11-edge-sunxi64，标准 Linux 服务器环境
+- :material-usb: **USB / TF 扩展** — 支持外接 U 盘、移动硬盘与 MicroSD 卡扩展存储
 - :material-robot-outline: **OpenClaw** — 开源多通道AI智能体框架，20+平台接入
 - :material-console: **Hermes Agent** — 终端原生自治代理，持久记忆与自进化
 - :material-code-braces: **Claude Code** — Anthropic 官方AI编程CLI工具

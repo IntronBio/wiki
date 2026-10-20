@@ -7,7 +7,7 @@ description: AIEdge Micro AI Agent Server — Product Overview
 
 ## What is the AIEdge Micro AI Agent Server?
 
-The AIEdge Micro AI Agent Server is a **desktop-class AI agent dedicated hardware** device from HydroSpring Technology. It is built on the Allwinner H618 chip + Ubuntu 22.04 LTS, with four core frameworks pre-installed: Mihomo (Clash) transparent proxy, OpenClaw (multi-channel agent gateway), Hermes Agent (autonomous AI agent), and Claude Code (AI coding assistant). By calling cloud LLM APIs, it provides enterprises and developers with a **24/7 online AI agent runtime platform**.
+The AIEdge Micro AI Agent Server is a **desktop-class AI agent dedicated hardware** device from HydroSpring Technology. It is built on the Allwinner H618 chip + Armbian Linux v25.05, with four core frameworks pre-installed: Mihomo (Clash) transparent proxy, OpenClaw (multi-channel agent gateway), Hermes Agent (autonomous AI agent), and Claude Code (AI coding assistant). By calling cloud LLM APIs, it provides enterprises and developers with a **24/7 online AI agent runtime platform**.
 
 !!! note "Core Positioning"
     **AIEdge doesn't run models — it runs agents.** All AI inference is performed by cloud models via API calls. The device itself focuses on agent task orchestration, messaging channel access, and local persistence of skills and memory.

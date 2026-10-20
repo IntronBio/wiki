@@ -14,7 +14,7 @@ AIEdge is more than a server — it's your 24/7 AI team. These tutorials demonst
 <div class="grid cards" markdown="1">
 
 - **[🌐 Claude Code + DeepSeek: Design & Deploy a Website](web-design.md)** — Start by configuring a DeepSeek API Key, then use Claude Code to generate and deploy a complete static website, instantly accessible on your LAN.
-- **[🔑 Configure Gemini API](gemini-api.md)** — Configure Google Gemini API for Claude Code / OpenClaw / Hermes in an Ubuntu SSH environment, with one-command model switching aliases.
+- **[🔑 Configure Gemini API](gemini-api.md)** — Configure Google Gemini API for Claude Code / OpenClaw / Hermes in an Linux SSH environment, with one-command model switching aliases.
 
 </div>
 

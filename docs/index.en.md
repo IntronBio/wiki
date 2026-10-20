@@ -14,7 +14,7 @@ hide:
 
 **24/7 Online · Multi-Channel AI Agents · Cloud LLM Powered**
 
-Powered by H618 + Ubuntu 22.04, pre-installed with Mihomo (Clash) / OpenClaw / Hermes / Claude Code — a turnkey enterprise-grade AI agent server.
+Powered by H618 + Armbian Linux v25.05, pre-installed with Mihomo (Clash) / OpenClaw / Hermes / Claude Code — a turnkey enterprise-grade AI agent server.
 
 </div>
 
@@ -72,7 +72,7 @@ Powered by H618 + Ubuntu 22.04, pre-installed with Mihomo (Clash) / OpenClaw / H
 
 ## About the AIEdge Micro AI Agent Server
 
-**AIEdge** is HydroSpring Technology's self-developed desktop-class micro AI agent server, built on the Allwinner H618 chip + Ubuntu 22.04, with Mihomo (Clash), OpenClaw, Hermes Agent, and Claude Code pre-installed. The device itself does not run large language models locally — instead, it operates as a **24/7 agent runtime + API gateway**, delivering AI agent services to your organization by calling cloud LLMs (Anthropic Claude, OpenAI GPT, OpenRouter, etc.).
+**AIEdge** is HydroSpring Technology's self-developed desktop-class micro AI agent server, built on the Allwinner H618 chip + Armbian Linux v25.05, with Mihomo (Clash), OpenClaw, Hermes Agent, and Claude Code pre-installed. The device itself does not run large language models locally — instead, it operates as a **24/7 agent runtime + API gateway**, delivering AI agent services to your organization by calling cloud LLMs (Anthropic Claude, OpenAI GPT, OpenRouter, etc.).
 
 ### Core Features
 
@@ -92,7 +92,7 @@ Powered by H618 + Ubuntu 22.04, pre-installed with Mihomo (Clash) / OpenClaw / H
 ```mermaid
 graph TD
     subgraph LAN
-        A[AIEdge Agent Server<br/>H618 + Ubuntu 22.04]
+        A[AIEdge Agent Server<br/>H618 + Armbian Linux v25.05]
         A --> B[OpenClaw<br/>Multi-Channel Agent Gateway]
         A --> C[Hermes Agent<br/>Autonomous AI Agent]
         A --> D[Claude Code<br/>AI Coding Assistant]
@@ -143,8 +143,9 @@ hermes setup
 
 <div class="grid cards" markdown="1">
 
-- :material-chip: **H618 Chip** — Allwinner H618, quad-core Cortex-A53, low-power long-life operation
-- :material-linux: **Ubuntu 22.04 LTS** — Standard Linux server environment, developer-friendly
+- :material-chip: **H618 Chip** — Allwinner H618, quad-core Cortex-A53, 4GB RAM / 128GB eMMC
+- :material-linux: **Armbian Linux v25.05** — Kernel 6.12.11-edge-sunxi64, standard Linux server environment
+- :material-usb: **USB / TF Expansion** — External USB drives and MicroSD cards for extra storage
 - :material-robot-outline: **OpenClaw** — Open-source multi-channel AI agent framework, 20+ platform support
 - :material-console: **Hermes Agent** — Native terminal autonomous agent with persistent memory & self-evolution
 - :material-code-braces: **Claude Code** — Anthropic's official AI coding CLI tool

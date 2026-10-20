@@ -1,6 +1,6 @@
 ---
 title: Configure Gemini API
-description: Configure Google Gemini API for Claude Code / OpenClaw / Hermes in Ubuntu SSH environment
+description: Configure Google Gemini API for Claude Code / OpenClaw / Hermes in Linux SSH environment
 ---
 
 # 🔑 Configure Gemini API

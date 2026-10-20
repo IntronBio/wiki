@@ -19,9 +19,9 @@ description: AIEdge Micro AI Agent Server — Hardware Specs & Technical Paramet
 
 | Parameter | Specification |
 |:-------|:-----|
-| RAM | 1GB / 2GB / **4GB (recommended)** LPDDR4 |
-| Onboard Storage | 8GB / 16GB / 32GB / 64GB / 128GB eMMC 5.1 |
-| External Expansion | USB 2.0 — USB flash drives, portable HDDs |
+| RAM | **4GB** LPDDR4 |
+| Onboard Storage | **128GB** eMMC 5.1 |
+| External Expansion | USB 2.0 — USB flash drives, portable HDDs for storage expansion |
 | Memory Card | MicroSD (TF) card slot, up to **512GB** |
 
 ---
@@ -83,8 +83,8 @@ description: AIEdge Micro AI Agent Server — Hardware Specs & Technical Paramet
 
 | Item | Details |
 |:-----|:-----|
-| OS | **Ubuntu 22.04 LTS** (Server, CLI only, no desktop) |
-| Kernel | Linux 5.15+ |
+| OS | **Armbian Linux v25.05** (rolling, H618, CLI only) |
+| Kernel | **Linux 6.12.11-edge-sunxi64** |
 | Architecture | ARM64 (aarch64) |
 | Pre-installed Components | Node.js 22+, Python 3.10, Git, Docker (optional), Mihomo (Clash) |
 
@@ -108,7 +108,7 @@ AIEdge comes with four core software packages pre-installed, **ready out of the 
 
 | # | Item | Qty | Notes |
 |:----:|:-----|:----:|:-----|
-| 1 | AIEdge main unit | 1 | 1GB / 2GB / 4GB options |
+| 1 | AIEdge main unit | 1 | 4GB RAM / 128GB eMMC |
 | 2 | Power adapter | 1 | DC or Type-C (included with select models) |
 | 3 | Quick Start Guide | 1 | Available on request, under development |
 | 4 | Warranty Card | 1 | Available on request, under development |

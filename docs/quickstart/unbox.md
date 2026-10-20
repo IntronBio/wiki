@@ -71,7 +71,7 @@ description: AIEdge 微型AI智能体服务器开箱检查步骤
 
 === "方式二：HDMI 直连"
 
-    将设备通过 HDMI 连接显示器，插上键盘，直接看到 Ubuntu 终端登录界面，输入用户名 `root` 和密码 `hybio.tech` 即可操作。
+    将设备通过 HDMI 连接显示器，插上键盘，直接看到 Armbian 终端登录界面，输入用户名 `root` 和密码 `hybio.tech` 即可操作。
 
 ---
 

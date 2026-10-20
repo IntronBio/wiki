@@ -88,7 +88,7 @@ pip install --upgrade hermes-agent
 # Upgrade Claude Code
 npm update -g @anthropic-ai/claude-code
 
-# Upgrade Ubuntu system packages
+# Upgrade system packages (Armbian / Debian)
 sudo apt update && sudo apt upgrade -y
 ```
 
@@ -123,7 +123,7 @@ crontab -e
 
 | Operation | Command |
 |------|------|
-| Check Ubuntu version | `lsb_release -a` |
+| Check system version | `cat /etc/armbian-release && uname -r` |
 | Check OpenClaw version | `openclaw --version` |
 | Check Hermes version | `hermes --version` |
 | Check Claude Code version | `claude --version` |

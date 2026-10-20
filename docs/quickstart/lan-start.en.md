@@ -16,7 +16,7 @@ The AIEdge Micro AI Agent Server is designed for **plug-and-play on your local n
 ```mermaid
 graph TD
     R[Router/Switch<br/>DHCP Server] --- PC[Office PC]
-    R --- AE[AIEdge Agent Server<br/>H618 + Ubuntu 22.04]
+    R --- AE[AIEdge Agent Server<br/>H618 + Armbian Linux v25.05]
     R --- L[Laptop]
     R --- M[Phone/Tablet]
     AE -.-> API[Cloud LLM APIs<br/>Anthropic/OpenAI/DeepSeek/OpenRouter]
@@ -117,12 +117,12 @@ AIEdge supports simultaneous use by multiple team members:
 
 | Scenario | Recommended Config |
 |------|----------|
-| Personal use | 1GB model, 1-2 agents |
-| Small team (2-5 people) | 2GB model, 3-5 agents |
-| Department (5-15 people) | 4GB model, 5-10 agents |
+| Personal use | 4GB standard config, 1-3 agents |
+| Small team (2-5 people) | 4GB standard config, 3-5 agents |
+| Department (5-15 people) | 4GB standard config, 5-10 agents |
 
 !!! warning "Concurrency Notes"
-    Agent response speed depends mainly on **cloud API response time**. For 2GB and lower models, we recommend no more than 3 concurrently active agents.
+    Agent response speed depends mainly on **cloud API response time**. Control the number of concurrently active agents based on actual load; for larger teams, deploy multiple units in separate zones.
 
 ---
 

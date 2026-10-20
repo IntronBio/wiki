@@ -55,6 +55,4 @@ This manual applies to the following product versions:
 
 | Model | System Version | Applicability |
 |:---------|:---------|:-------|
-| AIEdge 1GB | AIEdge OS v1.2+ (Ubuntu 22.04) | ✅ Fully applicable |
-| AIEdge 2GB | AIEdge OS v1.2+ (Ubuntu 22.04) | ✅ Fully applicable |
-| AIEdge 4GB | AIEdge OS v1.2+ (Ubuntu 22.04) | ✅ Fully applicable |
+| AIEdge (4GB / 128GB) | Armbian Linux v25.05 (Kernel 6.12.11-edge-sunxi64) | ✅ Fully applicable |

@@ -19,14 +19,12 @@ description: 上海氢春生物科技有限公司企业概况
 
 === "硬件产品"
 
-    - **AIEdge 微型AI智能体服务器** — 基于 H618低功耗芯片 + Ubuntu 22.04，预装 OpenClaw、Hermes Agent、Claude Code
-    - **AIEdge 1GB** — 入门版，面向个人开发者与轻量智能体应用
-    - **AIEdge 2GB** — 进阶版，小团队多智能体并发
-    - **AIEdge 4GB** — 旗舰版，多智能体 + 多通道同时运行
+    - **AIEdge 微型AI智能体服务器** — 基于 H618低功耗芯片 + Armbian Linux v25.05，预装 OpenClaw、Hermes Agent、Claude Code
+    - **AIEdge 4GB / 128GB** — 标准配置，多智能体 + 多通道同时运行，支持 USB / TF 卡扩展存储
 
 === "软件服务"
 
-    - **AIEdge OS** — 基于 Ubuntu 22.04 定制的专用操作系统，预装全部智能体框架
+    - **AIEdge OS** — 基于 Armbian Linux v25.05 定制的专用操作系统，预装全部智能体框架
     - **技能市场** — 预配置的智能体技能模板，覆盖办公自动化、客服、代码辅助等场景
     - **OTA 持续更新** — 智能体框架与系统补丁定期推送
 

@@ -88,7 +88,7 @@ pip install --upgrade hermes-agent
 # 升级 Claude Code
 npm update -g @anthropic-ai/claude-code
 
-# 升级 Ubuntu 系统包
+# 升级系统软件包（Armbian / Debian）
 sudo apt update && sudo apt upgrade -y
 ```
 
@@ -123,7 +123,7 @@ crontab -e
 
 | 操作 | 命令 |
 |------|------|
-| 查看 Ubuntu 版本 | `lsb_release -a` |
+| 查看系统版本 | `cat /etc/armbian-release && uname -r` |
 | 查看 OpenClaw 版本 | `openclaw --version` |
 | 查看 Hermes 版本 | `hermes --version` |
 | 查看 Claude Code 版本 | `claude --version` |

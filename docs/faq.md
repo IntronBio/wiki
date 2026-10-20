@@ -121,7 +121,7 @@ journalctl -u openclaw -n 50
 2. 减少同时活跃的智能体数量
 3. 定期清理日志文件
 4. 设置定时重启
-5. 升级至 4GB 版本
+5. 使用 `ps aux --sort=-%mem | head` 排查内存占用，重启占用过高的服务
 
 ---
 
@@ -165,14 +165,19 @@ npm update -g @anthropic-ai/claude-code
 
 ## 采购与售后类
 
-### Q14: 1GB / 2GB / 4GB 版本如何选择？
+### Q14: 设备的内存和存储配置是什么？
 
-| 场景 | 推荐 |
+当前 AIEdge 统一配置为 **4GB 内存 + 128GB eMMC**：
+
+| 项目 | 配置 |
 |------|------|
-| 个人开发/学习 | 1GB |
-| 小团队客服/自动化 | 2GB |
-| 部门级多智能体 | 4GB |
-| 大型多场景部署 | 多台 4GB + 分区 |
+| 内存 | 4GB LPDDR4 |
+| 板载存储 | 128GB eMMC 5.1 |
+| 扩展存储 | USB 2.0（U 盘 / 移动硬盘）、MicroSD (TF) 卡 |
+| 操作系统 | Armbian Linux v25.05 rolling（H618） |
+| 内核 | Linux 6.12.11-edge-sunxi64 |
+
+可满足多智能体、多消息通道同时运行；存储不足时可通过 USB 或 TF 卡扩展。
 
 ---
 
@@ -191,7 +196,7 @@ npm update -g @anthropic-ai/claude-code
 请联系技术支持，准备好以下信息：
 
 - 设备序列号（底部标签）
-- Ubuntu 版本：`lsb_release -a`
+- 系统版本：`cat /etc/armbian-release && uname -r`
 - 智能体版本：`openclaw --version && hermes --version && claude --version`
 - 故障现象描述（含截图/日志）
 - 已尝试的排查步骤

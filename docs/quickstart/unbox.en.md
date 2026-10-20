@@ -71,7 +71,7 @@ Once the device is ready, choose one of the following methods to access the syst
 
 === "Method 2: Direct HDMI Connection"
 
-    Connect the device to a monitor via HDMI, attach a keyboard, and you'll see the Ubuntu terminal login screen. Enter username `root` and password `hybio.tech` to proceed.
+    Connect the device to a monitor via HDMI, attach a keyboard, and you'll see the Armbian terminal login screen. Enter username `root` and password `hybio.tech` to proceed.
 
 ---
 

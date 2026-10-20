@@ -33,7 +33,7 @@ description: AIEdge supplementary materials, tool downloads & technical support
 
 | Version | Release Date | Changelog | Download |
 |------|:---------|:---------|:----:|
-| AIEdge OS v1.2.1 | 2026-06-15 | Ubuntu 22.04 + latest OpenClaw/Hermes/Claude Code | [Download](#) |
+| AIEdge OS v1.2.1 | 2026-06-15 | Armbian Linux v25.05 + latest OpenClaw/Hermes/Claude Code | [Download](#) |
 | AIEdge OS v1.2.0 | 2026-05-20 | New AIEdge CLI, unified API Key management | [Download](#) |
 | AIEdge OS v1.1.0 | 2026-04-10 | First official release | [Download](#) |
 
@@ -87,7 +87,7 @@ description: AIEdge supplementary materials, tool downloads & technical support
 ### Support Ticket Checklist
 
 1. :material-checkbox-outline: Device serial number
-2. :material-checkbox-outline: Ubuntu version: `lsb_release -a`
+2. :material-checkbox-outline: System version: `cat /etc/armbian-release && uname -r`
 3. :material-checkbox-outline: Agent software version numbers
 4. :material-checkbox-outline: Detailed problem description
 5. :material-checkbox-outline: Relevant logs
