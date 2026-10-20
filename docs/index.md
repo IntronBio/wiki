@@ -14,7 +14,7 @@ hide:
 
 **7×24 小时在线 · 多通道AI智能体 · 云端大模型驱动**
 
-基于 H618 + Armbian Linux v25.05，预装 Mihomo (Clash) / OpenClaw / Hermes / Claude Code，开箱即用的企业级 AI 智能体服务器。
+基于 H618 + Armbian Linux v25.05，预装 OpenClaw / Codex CLI（Mihomo、Hermes Agent、Claude Code 可选），开箱即用的企业级 AI 智能体服务器。
 
 </div>
 
@@ -72,13 +72,13 @@ hide:
 
 ## 关于 AIEdge 微型AI智能体服务器
 
-**AIEdge** 是氢春科技自主研发的桌面级微型AI智能体服务器，基于全志 H618 芯片 + Armbian Linux v25.05，出厂预装 Mihomo (Clash)、OpenClaw、Hermes Agent、Claude Code 四大核心框架。设备本身不运行大模型，而是作为 **7×24 小时在线的智能体运行时 + API 网关**，通过调用云端 LLM（Anthropic Claude、OpenAI GPT、OpenRouter 等）为企业提供 AI 智能体服务。
+**AIEdge** 是氢春科技自主研发的桌面级微型AI智能体服务器，基于全志 H618 芯片 + Armbian Linux v25.05，出厂预装 OpenClaw、Codex CLI 两款核心框架（Mihomo、Hermes Agent、Claude Code 可选安装）。设备本身不运行大模型，而是作为 **7×24 小时在线的智能体运行时 + API 网关**，通过调用云端 LLM（Anthropic Claude、OpenAI GPT、OpenRouter 等）为企业提供 AI 智能体服务。
 
 ### 核心特性
 
 | 特性 | 说明 |
 |------|------|
-| :material-robot: **多智能体框架** | 预装 Mihomo + OpenClaw + Hermes + Claude Code，开箱即用 |
+| :material-robot: **多智能体框架** | 预装 OpenClaw + Codex CLI（Mihomo / Hermes / Claude Code 可选），开箱即用 |
 | :material-cloud-sync: **云端模型驱动** | 通过 API 调用业界最强云端大模型，无需本地算力 |
 | :material-clock-fast: **7×24 持续在线** | 低功耗（5-10W），适合长期运行，永不"下班" |
 | :material-message-text: **多平台接入** | 支持微信/钉钉/飞书/Slack/Telegram 等 20+ 消息通道 |
@@ -93,9 +93,9 @@ hide:
 graph TD
     subgraph 局域网
         A[AIEdge 智能体服务器<br/>H618 + Armbian Linux v25.05]
-        A --> B[OpenClaw<br/>多通道智能体网关]
-        A --> C[Hermes Agent<br/>自治AI代理]
-        A --> D[Claude Code<br/>AI编程助手]
+        A --> B[OpenClaw<br/>多通道智能体网关 · 预装]
+        A --> C[Codex CLI<br/>AI编程助手 · 预装]
+        A --> D[Hermes Agent / Claude Code<br/>可选安装]
         B --> E[消息通道<br/>微信/钉钉/Slack/Telegram...]
     end
     subgraph 云端API
@@ -146,10 +146,11 @@ hermes setup
 - :material-chip: **H618 芯片** — 全志 H618，四核 Cortex-A53，4GB 内存 / 128GB eMMC
 - :material-linux: **Armbian Linux v25.05** — 内核 6.12.11-edge-sunxi64，标准 Linux 服务器环境
 - :material-usb: **USB / TF 扩展** — 支持外接 U 盘、移动硬盘与 MicroSD 卡扩展存储
-- :material-robot-outline: **OpenClaw** — 开源多通道AI智能体框架，20+平台接入
-- :material-console: **Hermes Agent** — 终端原生自治代理，持久记忆与自进化
-- :material-code-braces: **Claude Code** — Anthropic 官方AI编程CLI工具
+- :material-robot-outline: **OpenClaw（预装）** — 开源多通道AI智能体框架，20+平台接入
+- :material-console: **Codex CLI（预装）** — OpenAI 官方终端编码智能体，代码生成与 Git 工作流
 - :material-cloud: **API驱动** — 调用云端顶级模型，不消耗本地算力
-- :material-shield: **Mihomo (Clash)** — 透明代理，保障 API 链路畅通无阻
+- :material-code-tags: **Hermes Agent（可选）** — 终端原生自治代理，持久记忆与自进化
+- :material-code-braces: **Claude Code（可选）** — Anthropic 官方AI编程CLI工具
+- :material-shield: **Mihomo (Clash)（可选）** — 透明代理，保障 API 链路畅通无阻
 
 </div>

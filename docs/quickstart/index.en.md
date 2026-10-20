@@ -27,7 +27,7 @@ graph LR
 <div class="grid cards" markdown="1">
 
 - **[Device Introduction](overview.md)** — Learn about AIEdge's product positioning and the agent server concept
-- **[Hardware Specifications](specs.md)** — H618 chip parameters, interface details, pre-installed software stack
+- **[Hardware Specifications](specs.md)** — H618 chip parameters, interface details, software stack
 - **[Unboxing Checklist](unbox.md)** — Post-delivery checklist and accessory verification
 - **[First Deployment](deploy.md)** — SSH login, API Key configuration, agent service startup
 - **[LAN Quick Start](lan-start.md)** — Daily use: messaging channel integration, scheduled task setup

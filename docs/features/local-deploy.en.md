@@ -107,7 +107,7 @@ graph LR
 
 - Regular Armbian security patch updates
 - Auto-upgrade for OpenClaw / Hermes / Claude Code
-- Continuously expanding pre-installed skill marketplace
+- Continuously expanding skill marketplace
 
 ---
 

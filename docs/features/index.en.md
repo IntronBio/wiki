@@ -15,7 +15,7 @@ This chapter details the core features and use cases of the AIEdge Micro AI Agen
 
 - :material-robot: **[AI Agent Capabilities](inference.md)**
     
-    Core capabilities of OpenClaw, Hermes Agent, and Claude Code — cloud model integration and API usage details.
+    Core capabilities, cloud model integration, and API usage for the pre-installed OpenClaw and Codex CLI, plus optional Hermes Agent and Claude Code.
 
 - :material-server: **[Local Deployment Features](local-deploy.md)**
     
@@ -27,7 +27,7 @@ This chapter details the core features and use cases of the AIEdge Micro AI Agen
 
 - :material-message-text: **[Messaging Integration](wechat-integration.md)**
     
-    Using WeChat as an example, detailed steps for connecting OpenClaw / Hermes Agent / Claude Code to messaging platforms.
+    Using WeChat as an example, detailed steps for connecting OpenClaw (pre-installed) and the optional Hermes Agent / Claude Code to messaging platforms.
 
 </div>
 

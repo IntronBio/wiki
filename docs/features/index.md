@@ -15,7 +15,7 @@ description: AIEdge 微型AI智能体服务器核心功能介绍
 
 - :material-robot: **[AI智能体能力](inference.md)**
     
-    OpenClaw、Hermes Agent、Claude Code 三大智能体框架的核心能力、云端模型接入与 API 使用详解。
+    预装的 OpenClaw、Codex CLI 两款智能体框架及可选的 Hermes Agent、Claude Code，核心能力、云端模型接入与 API 使用详解。
 
 - :material-server: **[本地部署特性](local-deploy.md)**
     
@@ -27,7 +27,7 @@ description: AIEdge 微型AI智能体服务器核心功能介绍
 
 - :material-message-text: **[消息通道接入](wechat-integration.md)**
     
-    以微信为例，详细讲解 OpenClaw / Hermes Agent / Claude Code 的消息通道接入方法。
+    以微信为例，详细讲解 OpenClaw（预装）及 Hermes Agent、Claude Code（可选）的消息通道接入方法。
 
 </div>
 

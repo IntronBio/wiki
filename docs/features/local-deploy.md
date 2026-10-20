@@ -107,7 +107,7 @@ graph LR
 
 - Armbian 安全补丁定期更新
 - OpenClaw / Hermes / Claude Code 自动升级
-- 预装技能市场持续扩充
+- 技能市场持续扩充
 
 ---
 

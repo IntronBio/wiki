@@ -1,19 +1,20 @@
 ---
 title: AI智能体能力
-description: AIEdge 预装的三大AI智能体框架能力详解
+description: AIEdge 预装与可选 AI 智能体框架能力详解
 ---
 
 # AI智能体能力
 
-## 三大智能体框架
+## 预装与可选框架
 
-AIEdge 出厂预装三款核心 AI 智能体软件，全部通过 API 调用云端大模型，不消耗本地算力。
+AIEdge 出厂预装 **OpenClaw** 和 **Codex CLI**；Mihomo (Clash)、Hermes Agent、Claude Code 可按需安装。所有框架均通过 API 调用云端大模型，不消耗本地算力。
 
-| 框架 | 定位 | 编程语言 | 核心场景 |
-|------|------|:--:|------|
-| **OpenClaw** | 多通道智能体网关 | Node.js 22+ | 消息平台接入、多代理管理 |
-| **Hermes Agent** | 终端原生自治代理 | Python 3.10+ | 定时自动化、持久记忆 |
-| **Claude Code** | AI编程助手 | Node.js | 代码生成、PR审查、Git集成 |
+| 框架 | 定位 | 编程语言 | 核心场景 | 安装 |
+|------|------|:--:|------|:--:|
+| **OpenClaw** | 多通道智能体网关 | Node.js 22+ | 消息平台接入、多代理管理 | 预装 |
+| **Codex CLI** | OpenAI 终端编码智能体 | Node.js | 代码生成、终端自动化、Git 集成 | 预装 |
+| **Hermes Agent** | 终端原生自治代理 | Python 3.10+ | 定时自动化、持久记忆 | 可选 |
+| **Claude Code** | AI编程助手 | Node.js | 代码生成、PR审查、Git集成 | 可选 |
 
 ---
 
@@ -52,7 +53,31 @@ openclaw logs --follow
 
 ---
 
-## Hermes Agent — 终端原生自治代理
+## Codex CLI — OpenAI 终端编码智能体
+
+### 核心能力
+
+- :material-console: **终端原生** — 直接在 SSH 终端中对话式完成编码任务
+- :material-code-braces: **项目级理解** — 读取仓库上下文，生成、修改与重构代码
+- :material-git: **Git 工作流** — 查看变更、生成提交说明、辅助代码审查
+- :material-cloud: **云端模型** — 通过 ChatGPT 账号或 OpenAI API Key 调用云端模型
+
+### 常用命令
+
+```bash
+# 启动交互式编码会话
+codex
+
+# 非交互执行任务
+codex exec "为当前项目补充 README 文档"
+
+# 登录 / 切换账号
+codex login
+```
+
+---
+
+## Hermes Agent（可选）— 终端原生自治代理
 
 ### 核心能力
 
@@ -87,7 +112,7 @@ hermes run "分析最近的客户反馈并生成报告"
 
 ---
 
-## Claude Code — AI编程助手
+## Claude Code（可选）— AI编程助手
 
 ### 核心能力
 
@@ -120,7 +145,7 @@ claude --fix "Fix all type errors in src/"
 
 ## 云端 LLM API 供应商兼容性
 
-AIEdge 预装的所有智能体框架均支持以下 LLM 供应商：
+上述智能体框架均支持以下 LLM 供应商：
 
 | 供应商 | 代表模型 | API 格式 | 推荐场景 |
 |--------|---------|:--:|------|

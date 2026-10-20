@@ -7,7 +7,7 @@ description: AIEdge 微型AI智能体服务器产品概述
 
 ## 什么是 AIEdge 微型AI智能体服务器？
 
-AIEdge 微型AI智能体服务器是氢春科技打造的一款**桌面级 AI 智能体专用硬件**。它基于全志 H618 芯片 + Armbian Linux v25.05，出厂预装 Mihomo (Clash) 透明代理、OpenClaw（多通道智能体网关）、Hermes Agent（自治AI代理）、Claude Code（AI编程助手）四大核心框架，通过调用云端大模型 API，为企业和开发者提供一个 **7×24 小时在线的 AI 智能体运行平台**。
+AIEdge 微型AI智能体服务器是氢春科技打造的一款**桌面级 AI 智能体专用硬件**。它基于全志 H618 芯片 + Armbian Linux v25.05，出厂预装 OpenClaw（多通道智能体网关）和 Codex CLI（OpenAI 终端编码智能体），Mihomo (Clash)、Hermes Agent、Claude Code 可按需安装，通过调用云端大模型 API，为企业和开发者提供一个 **7×24 小时在线的 AI 智能体运行平台**。
 
 !!! note "核心定位"
     **AIEdge 不跑模型，它跑智能体。** 所有 AI 推理通过 API 调用云端最强模型完成，设备本身专注于智能体任务的调度、消息通道的接入、以及技能与记忆的本地持久化。

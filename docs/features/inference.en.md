@@ -1,19 +1,20 @@
 ---
 title: AI Agent Capabilities
-description: AIEdge Pre-Installed AI Agent Frameworks — Detailed Capabilities
+description: AIEdge Pre-Installed and Optional AI Agent Frameworks — Detailed Capabilities
 ---
 
 # AI Agent Capabilities
 
-## Three Agent Frameworks
+## Pre-Installed & Optional Frameworks
 
-AIEdge comes with three core AI agent software packages pre-installed, all powered by cloud LLMs via API — no local compute consumed.
+AIEdge ships with **OpenClaw** and **Codex CLI** pre-installed; Mihomo (Clash), Hermes Agent, and Claude Code can be installed on demand. All frameworks call cloud LLMs via API — no local compute consumed.
 
-| Framework | Role | Language | Core Scenarios |
-|------|------|:--:|------|
-| **OpenClaw** | Multi-channel agent gateway | Node.js 22+ | Messaging platform integration, multi-agent management |
-| **Hermes Agent** | Native terminal autonomous agent | Python 3.10+ | Scheduled automation, persistent memory |
-| **Claude Code** | AI coding assistant | Node.js | Code generation, PR review, Git integration |
+| Framework | Role | Language | Core Scenarios | Installation |
+|------|------|:--:|------|:--:|
+| **OpenClaw** | Multi-channel agent gateway | Node.js 22+ | Messaging platform integration, multi-agent management | Pre-installed |
+| **Codex CLI** | OpenAI terminal coding agent | Node.js | Code generation, terminal automation, Git integration | Pre-installed |
+| **Hermes Agent** | Native terminal autonomous agent | Python 3.10+ | Scheduled automation, persistent memory | Optional |
+| **Claude Code** | AI coding assistant | Node.js | Code generation, PR review, Git integration | Optional |
 
 ---
 
@@ -52,7 +53,31 @@ openclaw logs --follow
 
 ---
 
-## Hermes Agent — Terminal Native Autonomous Agent
+## Codex CLI — OpenAI Terminal Coding Agent
+
+### Core Capabilities
+
+- :material-console: **Terminal-native** — Complete coding tasks conversationally right from your SSH terminal
+- :material-code-braces: **Project-level understanding** — Reads repository context to generate, modify, and refactor code
+- :material-git: **Git workflow** — Inspect changes, generate commit messages, assist with code review
+- :material-cloud: **Cloud models** — Calls cloud models via a ChatGPT account or OpenAI API key
+
+### Common Commands
+
+```bash
+# Start an interactive coding session
+codex
+
+# Run a task non-interactively
+codex exec "Add a README for this project"
+
+# Sign in / switch account
+codex login
+```
+
+---
+
+## Hermes Agent (Optional) — Terminal Native Autonomous Agent
 
 ### Core Capabilities
 
@@ -87,7 +112,7 @@ hermes run "Analyze recent customer feedback and generate a report"
 
 ---
 
-## Claude Code — AI Coding Assistant
+## Claude Code (Optional) — AI Coding Assistant
 
 ### Core Capabilities
 
@@ -120,7 +145,7 @@ claude --fix "Fix all type errors in src/"
 
 ## Cloud LLM API Provider Compatibility
 
-All pre-installed agent frameworks on AIEdge support the following LLM providers:
+All frameworks above support the following LLM providers:
 
 | Provider | Representative Models | API Format | Recommended For |
 |--------|---------|:--:|------|

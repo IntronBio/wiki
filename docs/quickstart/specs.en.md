@@ -77,7 +77,7 @@ description: AIEdge Micro AI Agent Server — Hardware Specs & Technical Paramet
 
 ---
 
-## Pre-Installed Software Stack
+## Software Stack
 
 ### Operating System
 
@@ -86,18 +86,19 @@ description: AIEdge Micro AI Agent Server — Hardware Specs & Technical Paramet
 | OS | **Armbian Linux v25.05** (rolling, H618, CLI only) |
 | Kernel | **Linux 6.12.11-edge-sunxi64** |
 | Architecture | ARM64 (aarch64) |
-| Pre-installed Components | Node.js 22+, Python 3.10, Git, Docker (optional), Mihomo (Clash) |
+| Pre-installed Components | Node.js 22+, Python 3.10, Git, Docker (optional) |
 
 ### AI Agent Frameworks
 
-AIEdge comes with four core software packages pre-installed, **ready out of the box**:
+AIEdge ships with **OpenClaw** and **Codex CLI** pre-installed, **ready out of the box**. Mihomo (Clash), Hermes Agent, and Claude Code are optional and can be installed on demand.
 
-| Software | Version | Role | Core Capabilities |
-|:-----|:----:|:-----|:-----|
-| **Mihomo (Clash)** | latest | Network proxy service | Transparent proxy, subscription updates, rule-based routing to keep API connections smooth |
-| **OpenClaw** | latest | Multi-channel AI agent gateway | Multi-platform messaging, multi-agent routing, skill marketplace, cron scheduling |
-| **Hermes Agent** | latest | Native terminal autonomous AI agent | Persistent memory, self-evolving skills, 21+ platform messaging gateway, any-model support |
-| **Claude Code** | latest | AI coding assistant CLI | Code generation/review/refactoring, project-level context understanding, Git workflow integration |
+| Software | Version | Role | Core Capabilities | Installation |
+|:-----|:----:|:-----|:-----|:----:|
+| **OpenClaw** | latest | Multi-channel AI agent gateway | Multi-platform messaging, multi-agent routing, skill marketplace, cron scheduling | **Pre-installed** |
+| **Codex CLI** | latest | OpenAI terminal coding agent | Code generation/review/refactoring, terminal automation, Git workflow integration | **Pre-installed** |
+| **Mihomo (Clash)** | latest | Network proxy service | Transparent proxy, subscription updates, rule-based routing to keep API connections smooth | Optional |
+| **Hermes Agent** | latest | Native terminal autonomous AI agent | Persistent memory, self-evolving skills, 21+ platform messaging gateway, any-model support | Optional |
+| **Claude Code** | latest | AI coding assistant CLI | Code generation/review/refactoring, project-level context understanding, Git workflow integration | Optional |
 
 !!! info "How It Works"
     AIEdge **does not run LLMs locally**. All AI agent software calls cloud LLM services via API (Anthropic Claude, OpenAI GPT, DeepSeek, OpenRouter, etc.). The device itself serves as an agent runtime + API gateway + messaging hub, running persistently on your local network.

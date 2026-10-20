@@ -5,7 +5,7 @@ description: AIEdge 智能体接入微信/钉钉/飞书/Slack 等消息平台详
 
 # 消息通道接入指南
 
-AIEdge 预装的三大智能体框架各有不同的消息通道接入方式。以下以**微信**为例，分别介绍各框架的接入步骤。
+AIEdge 预装 OpenClaw，并可按需安装 Hermes Agent、Claude Code，各框架的消息通道接入方式不同。以下以**微信**为例，分别介绍各框架的接入步骤。
 
 ---
 
@@ -47,7 +47,7 @@ openclaw config set session.dmScope per-account-channel-peer
 | 问题 | 解决方案 |
 |------|----------|
 | 扫码无响应 | 执行 `openclaw gateway restart` 重启网关 |
-| 旧版插件兼容 bug | 务必使用 2026.3 以上版本，已预装在 AIEdge 中 |
+| 旧版插件兼容 bug | 务必使用 2026.3 以上版本 |
 
 ---
 

@@ -126,9 +126,9 @@ sudo netplan apply
 
 ---
 
-## Mihomo (Clash) Proxy Management
+## Mihomo (Clash) Proxy Management (Optional)
 
-AIEdge comes with Mihomo pre-installed as a transparent proxy, ensuring reliable access to overseas LLM APIs from within China.
+AIEdge supports the optional installation of Mihomo as a transparent proxy, ensuring reliable access to overseas LLM APIs from within China.
 
 ```bash
 # 1. Start proxy service
@@ -175,7 +175,7 @@ sudo systemctl status openclaw
 journalctl -u openclaw -f
 ```
 
-### Managing Hermes Agent
+### Managing Hermes Agent (Optional)
 
 ```bash
 sudo systemctl start hermes-agent

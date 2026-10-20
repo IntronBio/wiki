@@ -5,7 +5,7 @@ description: AIEdge Agent Integration with WeChat/DingTalk/Lark/Slack — Detail
 
 # Messaging Integration Guide
 
-The three agent frameworks pre-installed on AIEdge each have different messaging channel integration methods. Using **WeChat** as an example, this guide covers the integration steps for each framework.
+OpenClaw comes pre-installed on AIEdge, while Hermes Agent and Claude Code are optional; each framework has different messaging channel integration methods. Using **WeChat** as an example, this guide covers the integration steps for each framework.
 
 ---
 
@@ -47,7 +47,7 @@ openclaw config set session.dmScope per-account-channel-peer
 | Issue | Solution |
 |------|----------|
 | QR scan unresponsive | Run `openclaw gateway restart` |
-| Old plugin compatibility bugs | Ensure version ≥ 2026.3 (pre-installed on AIEdge) |
+| Old plugin compatibility bugs | Ensure version ≥ 2026.3 |
 
 ---
 

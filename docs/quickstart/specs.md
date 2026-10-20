@@ -77,7 +77,7 @@ description: AIEdge 微型AI智能体服务器 - 硬件规格与技术参数
 
 ---
 
-## 预装软件栈
+## 软件栈
 
 ### 操作系统
 
@@ -86,18 +86,19 @@ description: AIEdge 微型AI智能体服务器 - 硬件规格与技术参数
 | 操作系统 | **Armbian Linux v25.05**（rolling，H618 平台，命令行界面） |
 | 内核 | **Linux 6.12.11-edge-sunxi64** |
 | 架构 | ARM64 (aarch64) |
-| 预装组件 | Node.js 22+, Python 3.10, Git, Docker (可选), Mihomo (Clash) |
+| 预装组件 | Node.js 22+, Python 3.10, Git, Docker (可选) |
 
 ### AI 智能体框架
 
-AIEdge 出厂预装四款核心软件，**开箱即用**：
+AIEdge 出厂预装 **OpenClaw** 和 **Codex CLI**，**开箱即用**；Mihomo (Clash)、Hermes Agent、Claude Code 为可选项，可按需安装。
 
-| 软件 | 版本 | 定位 | 核心能力 |
-|:-----|:----:|:-----|:-----|
-| **Mihomo (Clash)** | latest | 网络代理服务 | 透明代理、订阅更新、规则分流，保障 API 链路畅通 |
-| **OpenClaw** | latest | 多通道AI智能体网关 | 多平台消息接入、多智能体路由、技能市场、定时任务 |
-| **Hermes Agent** | latest | 终端原生自治AI代理 | 持久记忆、自进化技能、21+平台消息网关、Any模型适配 |
-| **Claude Code** | latest | AI编程助手CLI | 代码生成/审查/重构、项目级上下文理解、Git工作流集成 |
+| 软件 | 版本 | 定位 | 核心能力 | 安装方式 |
+|:-----|:----:|:-----|:-----|:----:|
+| **OpenClaw** | latest | 多通道AI智能体网关 | 多平台消息接入、多智能体路由、技能市场、定时任务 | **预装** |
+| **Codex CLI** | latest | OpenAI 终端编码智能体 | 代码生成/审查/重构、终端自动化、Git 工作流集成 | **预装** |
+| **Mihomo (Clash)** | latest | 网络代理服务 | 透明代理、订阅更新、规则分流，保障 API 链路畅通 | 可选 |
+| **Hermes Agent** | latest | 终端原生自治AI代理 | 持久记忆、自进化技能、21+平台消息网关、Any模型适配 | 可选 |
+| **Claude Code** | latest | AI编程助手CLI | 代码生成/审查/重构、项目级上下文理解、Git工作流集成 | 可选 |
 
 !!! info "运行原理"
     AIEdge **不在本地运行大模型**。所有 AI 智能体软件通过 API 调用云端 LLM 服务（如 Anthropic Claude、OpenAI GPT、DeepSeek、OpenRouter 等）。设备本身作为智能体运行时 + API 网关 + 消息中枢，持久运行在您的局域网中。

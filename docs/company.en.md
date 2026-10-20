@@ -11,7 +11,7 @@ description: Shanghai HydroSpring Biotechnology Co., Ltd. — Company Overview
 
 **Shanghai HydroSpring Biotechnology Co., Ltd.** (HydroSpring Biotechnology Co., Ltd.) was founded in 2026 and is headquartered in Shanghai.
 
-The company's **Intelligent Hardware Division** focuses on micro edge AI agent servers, dedicated to running cutting-edge AI agent frameworks (OpenClaw, Hermes Agent, Claude Code) on local, low-power, ultra-quiet, miniaturized hardware. Unlike solutions that depend on cloud SaaS subscriptions or high-performance GPUs, HydroSpring's AIEdge series empowers every user with their own **24/7 online AI agent team** — plug and play, silent operation, never "off duty."
+The company's **Intelligent Hardware Division** focuses on micro edge AI agent servers, dedicated to running cutting-edge AI agent frameworks (OpenClaw, Codex CLI, Hermes Agent, Claude Code) on local, low-power, ultra-quiet, miniaturized hardware. Unlike solutions that depend on cloud SaaS subscriptions or high-performance GPUs, HydroSpring's AIEdge series empowers every user with their own **24/7 online AI agent team** — plug and play, silent operation, never "off duty."
 
 ---
 
@@ -19,12 +19,12 @@ The company's **Intelligent Hardware Division** focuses on micro edge AI agent s
 
 === "Hardware Products"
 
-    - **AIEdge Micro AI Agent Server** — Powered by the H618 low-power chip + Armbian Linux v25.05, with OpenClaw, Hermes Agent, and Claude Code pre-installed
+    - **AIEdge Micro AI Agent Server** — Powered by the H618 low-power chip + Armbian Linux v25.05, with OpenClaw and Codex CLI pre-installed (Mihomo, Hermes Agent, and Claude Code optional)
     - **AIEdge 4GB / 128GB** — Standard configuration for multi-agent + multi-channel operation, with USB / TF card storage expansion
 
 === "Software Services"
 
-    - **AIEdge OS** — Custom operating system based on Armbian Linux v25.05, with all agent frameworks pre-installed
+    - **AIEdge OS** — Custom operating system based on Armbian Linux v25.05, with OpenClaw and Codex CLI pre-installed (other frameworks optional)
     - **Skill Marketplace** — Pre-configured agent skill templates covering office automation, customer service, code assistance, and more
     - **OTA Updates** — Regular agent framework and system patch updates
 

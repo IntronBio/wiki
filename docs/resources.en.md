@@ -21,6 +21,7 @@ description: AIEdge supplementary materials, tool downloads & technical support
 | Framework | Official Docs | Version |
 |------|:--------|:----:|
 | OpenClaw | [GitHub](https://github.com/jesusoctavioas/openclaw) | latest |
+| Codex CLI | [GitHub](https://github.com/openai/codex) | latest |
 | Hermes Agent | [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com) | latest |
 | Claude Code | [docs.anthropic.com](https://docs.anthropic.com/en/docs/claude-code) | latest |
 
@@ -33,7 +34,7 @@ description: AIEdge supplementary materials, tool downloads & technical support
 
 | Version | Release Date | Changelog | Download |
 |------|:---------|:---------|:----:|
-| AIEdge OS v1.2.1 | 2026-06-15 | Armbian Linux v25.05 + latest OpenClaw/Hermes/Claude Code | [Download](#) |
+| AIEdge OS v1.2.1 | 2026-06-15 | Armbian Linux v25.05 + latest OpenClaw/Codex CLI (Hermes/Claude Code optional) | [Download](#) |
 | AIEdge OS v1.2.0 | 2026-05-20 | New AIEdge CLI, unified API Key management | [Download](#) |
 | AIEdge OS v1.1.0 | 2026-04-10 | First official release | [Download](#) |
 

@@ -109,7 +109,7 @@ ssh root@192.168.1.105
 
 ## Step 5: Start Network Proxy (Optional)
 
-If you're in China, accessing overseas APIs (Anthropic / OpenAI, etc.) may be restricted. AIEdge comes with **Mihomo (Clash)** transparent proxy pre-installed — configure your subscription to ensure smooth API connectivity.
+If you're in China, accessing overseas APIs (Anthropic / OpenAI, etc.) may be restricted. AIEdge supports the optional **Mihomo (Clash)** transparent proxy — configure your subscription to ensure smooth API connectivity.
 
 !!! note "Proxy Subscription"
     You'll need to provide your own Clash subscription. You can purchase a paid subscription or use free subscription links from various providers. The device itself does not include a proxy subscription.

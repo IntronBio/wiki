@@ -14,7 +14,7 @@ hide:
 
 **24/7 Online · Multi-Channel AI Agents · Cloud LLM Powered**
 
-Powered by H618 + Armbian Linux v25.05, pre-installed with Mihomo (Clash) / OpenClaw / Hermes / Claude Code — a turnkey enterprise-grade AI agent server.
+Powered by H618 + Armbian Linux v25.05, pre-installed with OpenClaw / Codex CLI (Mihomo, Hermes Agent, and Claude Code optional) — a turnkey enterprise-grade AI agent server.
 
 </div>
 
@@ -72,13 +72,13 @@ Powered by H618 + Armbian Linux v25.05, pre-installed with Mihomo (Clash) / Open
 
 ## About the AIEdge Micro AI Agent Server
 
-**AIEdge** is HydroSpring Technology's self-developed desktop-class micro AI agent server, built on the Allwinner H618 chip + Armbian Linux v25.05, with Mihomo (Clash), OpenClaw, Hermes Agent, and Claude Code pre-installed. The device itself does not run large language models locally — instead, it operates as a **24/7 agent runtime + API gateway**, delivering AI agent services to your organization by calling cloud LLMs (Anthropic Claude, OpenAI GPT, OpenRouter, etc.).
+**AIEdge** is HydroSpring Technology's self-developed desktop-class micro AI agent server, built on the Allwinner H618 chip + Armbian Linux v25.05, with OpenClaw and Codex CLI pre-installed (Mihomo, Hermes Agent, and Claude Code optional). The device itself does not run large language models locally — instead, it operates as a **24/7 agent runtime + API gateway**, delivering AI agent services to your organization by calling cloud LLMs (Anthropic Claude, OpenAI GPT, OpenRouter, etc.).
 
 ### Core Features
 
 | Feature | Description |
 |------|------|
-| :material-robot: **Multi-Agent Framework** | Pre-installed Mihomo + OpenClaw + Hermes + Claude Code, ready out of the box |
+| :material-robot: **Multi-Agent Framework** | Pre-installed OpenClaw + Codex CLI (Mihomo / Hermes / Claude Code optional), ready out of the box |
 | :material-cloud-sync: **Cloud Model Powered** | Leverages the world's best cloud LLMs via API — no local GPU required |
 | :material-clock-fast: **24/7 Always Online** | Low power (5-10W), built for uninterrupted long-term operation |
 | :material-message-text: **Multi-Platform Access** | Supports 20+ messaging channels: WeChat, DingTalk, Lark, Slack, Telegram, and more |
@@ -93,9 +93,9 @@ Powered by H618 + Armbian Linux v25.05, pre-installed with Mihomo (Clash) / Open
 graph TD
     subgraph LAN
         A[AIEdge Agent Server<br/>H618 + Armbian Linux v25.05]
-        A --> B[OpenClaw<br/>Multi-Channel Agent Gateway]
-        A --> C[Hermes Agent<br/>Autonomous AI Agent]
-        A --> D[Claude Code<br/>AI Coding Assistant]
+        A --> B[OpenClaw<br/>Multi-Channel Agent Gateway · Pre-installed]
+        A --> C[Codex CLI<br/>AI Coding Assistant · Pre-installed]
+        A --> D[Hermes Agent / Claude Code<br/>Optional]
         B --> E[Messaging Channels<br/>WeChat/DingTalk/Slack/Telegram...]
     end
     subgraph Cloud APIs
@@ -146,10 +146,11 @@ hermes setup
 - :material-chip: **H618 Chip** — Allwinner H618, quad-core Cortex-A53, 4GB RAM / 128GB eMMC
 - :material-linux: **Armbian Linux v25.05** — Kernel 6.12.11-edge-sunxi64, standard Linux server environment
 - :material-usb: **USB / TF Expansion** — External USB drives and MicroSD cards for extra storage
-- :material-robot-outline: **OpenClaw** — Open-source multi-channel AI agent framework, 20+ platform support
-- :material-console: **Hermes Agent** — Native terminal autonomous agent with persistent memory & self-evolution
-- :material-code-braces: **Claude Code** — Anthropic's official AI coding CLI tool
+- :material-robot-outline: **OpenClaw (Pre-installed)** — Open-source multi-channel AI agent framework, 20+ platform support
+- :material-console: **Codex CLI (Pre-installed)** — OpenAI's official terminal coding agent with Git workflow integration
 - :material-cloud: **API-Driven** — Calls top-tier cloud models, no local compute consumed
-- :material-shield: **Mihomo (Clash)** — Transparent proxy ensuring uninterrupted API connectivity
+- :material-code-tags: **Hermes Agent (Optional)** — Native terminal autonomous agent with persistent memory & self-evolution
+- :material-code-braces: **Claude Code (Optional)** — Anthropic's official AI coding CLI tool
+- :material-shield: **Mihomo (Clash) (Optional)** — Transparent proxy ensuring uninterrupted API connectivity
 
 </div>

@@ -109,7 +109,7 @@ ssh root@192.168.1.105
 
 ## 第五步：启动网络代理（可选）
 
-如果您在国内使用，调用 Anthropic / OpenAI 等海外 API 可能受限。AIEdge 预装了 **Mihomo (Clash)** 透明代理，配置好订阅即可保障 API 链路畅通。
+如果您在国内使用，调用 Anthropic / OpenAI 等海外 API 可能受限。AIEdge 可选用 **Mihomo (Clash)** 透明代理，配置好订阅即可保障 API 链路畅通。
 
 !!! note "代理订阅"
     Clash 订阅需要自行准备，您可以购买付费订阅，或使用各服务商提供的免费订阅链接。设备本身不含代理订阅。

@@ -21,6 +21,7 @@ description: AIEdge 辅助资料、工具下载与技术支持
 | 框架 | 官方文档 | 版本 |
 |------|:--------|:----:|
 | OpenClaw | [GitHub](https://github.com/jesusoctavioas/openclaw) | latest |
+| Codex CLI | [GitHub](https://github.com/openai/codex) | latest |
 | Hermes Agent | [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com) | latest |
 | Claude Code | [docs.anthropic.com](https://docs.anthropic.com/en/docs/claude-code) | latest |
 
@@ -33,7 +34,7 @@ description: AIEdge 辅助资料、工具下载与技术支持
 
 | 版本 | 发布日期 | 更新内容 | 下载 |
 |------|:---------|:---------|:----:|
-| AIEdge OS v1.2.1 | 2026-06-15 | Armbian Linux v25.05 + OpenClaw/Hermes/Claude Code 最新版 | [下载](#) |
+| AIEdge OS v1.2.1 | 2026-06-15 | Armbian Linux v25.05 + OpenClaw/Codex CLI 最新版（Hermes/Claude Code 可选） | [下载](#) |
 | AIEdge OS v1.2.0 | 2026-05-20 | 新增 AIEdge CLI、统一 API Key 管理 | [下载](#) |
 | AIEdge OS v1.1.0 | 2026-04-10 | 首个正式发布版本 | [下载](#) |
 

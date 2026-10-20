@@ -11,7 +11,7 @@ description: 上海氢春生物科技有限公司企业概况
 
 **上海氢春生物科技有限公司**（HydroSpring Biotechnology Co., Ltd.）成立于 2026 年，总部位于上海。
 
-公司旗下**智能硬件事业部**专注于微型边缘AI智能体服务器，致力于将前沿的 AI 智能体框架（OpenClaw、Hermes Agent、Claude Code）运行在本地、低功耗、超静音、微型化的硬件设备上。不同于依赖云端 SaaS 订阅或高性能 GPU 的方案，氢春科技的 AIEdge 系列产品让每一位用户都能拥有一台属于自己的 **7×24 小时在线的 AI 智能体团队**——插电即用，安静运行，永不"下班"。
+公司旗下**智能硬件事业部**专注于微型边缘AI智能体服务器，致力于将前沿的 AI 智能体框架（OpenClaw、Codex CLI、Hermes Agent、Claude Code）运行在本地、低功耗、超静音、微型化的硬件设备上。不同于依赖云端 SaaS 订阅或高性能 GPU 的方案，氢春科技的 AIEdge 系列产品让每一位用户都能拥有一台属于自己的 **7×24 小时在线的 AI 智能体团队**——插电即用，安静运行，永不"下班"。
 
 ---
 
@@ -19,12 +19,12 @@ description: 上海氢春生物科技有限公司企业概况
 
 === "硬件产品"
 
-    - **AIEdge 微型AI智能体服务器** — 基于 H618低功耗芯片 + Armbian Linux v25.05，预装 OpenClaw、Hermes Agent、Claude Code
+    - **AIEdge 微型AI智能体服务器** — 基于 H618低功耗芯片 + Armbian Linux v25.05，预装 OpenClaw、Codex CLI（Mihomo、Hermes Agent、Claude Code 可选）
     - **AIEdge 4GB / 128GB** — 标准配置，多智能体 + 多通道同时运行，支持 USB / TF 卡扩展存储
 
 === "软件服务"
 
-    - **AIEdge OS** — 基于 Armbian Linux v25.05 定制的专用操作系统，预装全部智能体框架
+    - **AIEdge OS** — 基于 Armbian Linux v25.05 定制的专用操作系统，预装 OpenClaw、Codex CLI（其他框架可选安装）
     - **技能市场** — 预配置的智能体技能模板，覆盖办公自动化、客服、代码辅助等场景
     - **OTA 持续更新** — 智能体框架与系统补丁定期推送
 

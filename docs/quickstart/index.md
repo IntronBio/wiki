@@ -27,7 +27,7 @@ graph LR
 <div class="grid cards" markdown="1">
 
 - **[设备简介](overview.md)** — 了解 AIEdge 的产品定位与智能体服务器概念
-- **[硬件参数](specs.md)** — H618 芯片参数、接口说明、预装软件栈
+- **[硬件参数](specs.md)** — H618 芯片参数、接口说明、软件栈
 - **[开箱检查](unbox.md)** — 收货后的检查清单与配件核对
 - **[首次部署流程](deploy.md)** — SSH登录、API Key配置、智能体服务启动
 - **[局域网快速启动](lan-start.md)** — 日常使用：消息通道接入、定时任务设置

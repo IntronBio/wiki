@@ -126,9 +126,9 @@ sudo netplan apply
 
 ---
 
-## Mihomo (Clash) 代理管理
+## Mihomo (Clash) 代理管理（可选）
 
-AIEdge 预装 Mihomo 作为透明代理，保障国内环境访问海外 LLM API 的链路畅通。
+AIEdge 可选安装 Mihomo 作为透明代理，保障国内环境访问海外 LLM API 的链路畅通。
 
 ```bash
 # 1. 启动代理服务
@@ -175,7 +175,7 @@ sudo systemctl status openclaw
 journalctl -u openclaw -f
 ```
 
-### 管理 Hermes Agent
+### 管理 Hermes Agent（可选）
 
 ```bash
 sudo systemctl start hermes-agent
