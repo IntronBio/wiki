@@ -1,6 +1,6 @@
 ---
 title: AIEdge Wiki - Micro AI Agent Server Documentation Center
-description: HydroSpring Technology - AIEdge Micro AI Agent Server Official Docs, User Manuals & Technical Resources
+description: Shanghai Spring Technology - AIEdge Micro AI Agent Server Official Docs, User Manuals & Technical Resources
 hide:
   - navigation
 ---
@@ -27,7 +27,7 @@ Powered by H618 + Armbian Linux v25.05, pre-installed with OpenClaw / Codex CLI 
 <div class="home-card" markdown="1">
 <div class="card-icon">🏢</div>
 <h3>Company</h3>
-<p>Learn about HydroSpring Technology, our core business, technical advantages, and service philosophy.</p>
+<p>Learn about Shanghai Spring Technology, our core business, technical advantages, and service philosophy.</p>
 <a class="card-link" href="company/">Learn More →</a>
 </div>
 
@@ -72,7 +72,7 @@ Powered by H618 + Armbian Linux v25.05, pre-installed with OpenClaw / Codex CLI 
 
 ## About the AIEdge Micro AI Agent Server
 
-**AIEdge** is HydroSpring Technology's self-developed desktop-class micro AI agent server, built on the Allwinner H618 chip + Armbian Linux v25.05, with OpenClaw and Codex CLI pre-installed (Mihomo, Hermes Agent, and Claude Code optional). The device itself does not run large language models locally — instead, it operates as a **24/7 agent runtime + API gateway**, delivering AI agent services to your organization by calling cloud LLMs (Anthropic Claude, OpenAI GPT, OpenRouter, etc.).
+**AIEdge** is Shanghai Spring Technology's self-developed desktop-class micro AI agent server, built on the Allwinner H618 chip + Armbian Linux v25.05, with OpenClaw and Codex CLI pre-installed (Mihomo, Hermes Agent, and Claude Code optional). The device itself does not run large language models locally — instead, it operates as a **24/7 agent runtime + API gateway**, delivering AI agent services to your organization by calling cloud LLMs (Anthropic Claude, OpenAI GPT, OpenRouter, etc.).
 
 ### Core Features
 

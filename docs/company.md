@@ -9,7 +9,7 @@ description: 上海氢春生物科技有限公司企业概况
 
 ![AIEdge Logo](assets/logo-han.svg){: style="width:300px;display:block;margin:0 auto 16px;" }
 
-**上海氢春生物科技有限公司**（HydroSpring Biotechnology Co., Ltd.）成立于 2026 年，总部位于上海。
+**上海氢春生物科技有限公司**（Shanghai Spring Technology Co., Ltd.）成立于 2026 年，总部位于上海。
 
 公司旗下**智能硬件事业部**专注于微型边缘AI智能体服务器，致力于将前沿的 AI 智能体框架（OpenClaw、Codex CLI、Hermes Agent、Claude Code）运行在本地、低功耗、超静音、微型化的硬件设备上。不同于依赖云端 SaaS 订阅或高性能 GPU 的方案，氢春科技的 AIEdge 系列产品让每一位用户都能拥有一台属于自己的 **7×24 小时在线的 AI 智能体团队**——插电即用，安静运行，永不"下班"。
 

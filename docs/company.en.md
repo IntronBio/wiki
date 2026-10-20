@@ -1,6 +1,6 @@
 ---
 title: Company
-description: Shanghai HydroSpring Biotechnology Co., Ltd. — Company Overview
+description: Shanghai Spring Technology Co., Ltd. — Company Overview
 ---
 
 # 🏢 Company
@@ -9,9 +9,9 @@ description: Shanghai HydroSpring Biotechnology Co., Ltd. — Company Overview
 
 ![AIEdge Logo](assets/logo-han.svg){: style="width:300px;display:block;margin:0 auto 16px;" }
 
-**Shanghai HydroSpring Biotechnology Co., Ltd.** (HydroSpring Biotechnology Co., Ltd.) was founded in 2026 and is headquartered in Shanghai.
+**Shanghai Spring Technology Co., Ltd.** was founded in 2026 and is headquartered in Shanghai.
 
-The company's **Intelligent Hardware Division** focuses on micro edge AI agent servers, dedicated to running cutting-edge AI agent frameworks (OpenClaw, Codex CLI, Hermes Agent, Claude Code) on local, low-power, ultra-quiet, miniaturized hardware. Unlike solutions that depend on cloud SaaS subscriptions or high-performance GPUs, HydroSpring's AIEdge series empowers every user with their own **24/7 online AI agent team** — plug and play, silent operation, never "off duty."
+The company's **Intelligent Hardware Division** focuses on micro edge AI agent servers, dedicated to running cutting-edge AI agent frameworks (OpenClaw, Codex CLI, Hermes Agent, Claude Code) on local, low-power, ultra-quiet, miniaturized hardware. Unlike solutions that depend on cloud SaaS subscriptions or high-performance GPUs, Shanghai Spring Technology's AIEdge series empowers every user with their own **24/7 online AI agent team** — plug and play, silent operation, never "off duty."
 
 ---
 
