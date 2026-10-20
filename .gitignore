@@ -19,3 +19,7 @@ Thumbs.db
 # 临时文件
 *.tmp
 *.log
+
+# Cloudflare Wrangler
+.wrangler/
+node_modules/

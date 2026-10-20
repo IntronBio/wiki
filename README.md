@@ -93,33 +93,39 @@ mkdocs build
 # }
 ```
 
-## Cloudflare Pages 部署
+## Cloudflare 部署
 
-本项目可直接通过 Cloudflare Pages 导入 Git 仓库自动构建。
+本项目包含 `wrangler.jsonc`，站点以 Workers 静态资源方式部署（`assets.directory` 指向 `site`）。
 
-### 构建配置
+### Workers Builds 配置
 
 | 配置项 | 值 |
 |--------|-----|
-| Framework preset | `None` |
-| **Build command** | `pip install -r requirements.txt && mkdocs build` |
-| **Build output directory** | `site` |
-| Build image | v2（Python 默认 3.11.5，`.python-version` 已锁定 3.10） |
-| 环境变量 | `SITE_URL=https://你的域名`（缺少时回退到 localhost） |
+| **构建命令** | `pip install -r requirements.txt && mkdocs build` |
+| **部署命令** | `npx wrangler deploy` |
+| **根目录** | `/` |
+| **构建变量** | `SITE_URL=https://你的域名`（缺少时回退到 localhost） |
+| 构建令牌 | 留空，使用 Cloudflare 自动生成的令牌 |
+
+`wrangler.jsonc` 中的 `name`（默认为 `aiedge-wiki`）必须与 Cloudflare 上的 Worker 名称一致，否则改为实际名称。
 
 ### 说明
 
 - `requirements.txt` 锁定构建依赖版本；`.python-version` 指定 Python 3.10。
 - `site_url` 通过 `SITE_URL` 环境变量注入（见 `mkdocs.yml`），用于生成 sitemap 和 canonical 链接，务必在 Cloudflare 项目设置中配置。
 - 中文站点构建在根路径，英文站点构建在 `/en/` 下，无需额外路由配置。
-- `site/` 是构建产物，已在 `.gitignore` 中忽略，无需提交。
+- `site/` 是构建产物，已在 `.gitignore` 中忽略，无需提交；`wrangler.jsonc` 的 404 处理使用 MkDocs 生成的 `site/404.html`。
 
-### 手动上传（可选）
+### 手动部署（可选）
 
 ```bash
 mkdocs build
-npx wrangler pages deploy site --project-name=aiedge-wiki
+npx wrangler deploy
 ```
+
+### Cloudflare Pages（备选）
+
+若改用 Pages（而非 Workers），配置为：Framework preset `None`、Build command 同上、**Build output directory** 填 `site`、环境变量 `SITE_URL` 同上。Pages 不需要 `wrangler.jsonc` 和部署命令。
 
 ## 主题特性
 
