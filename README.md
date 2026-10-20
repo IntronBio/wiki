@@ -54,8 +54,8 @@ wiki/
 ### 安装
 
 ```bash
-# 1. 安装依赖
-pip install mkdocs-material mkdocs-material-extensions
+# 1. 安装依赖（版本锁定，与线上构建一致）
+pip install -r requirements.txt
 
 # 2. 进入项目目录
 cd wiki
@@ -91,6 +91,34 @@ mkdocs build
 #     root /path/to/wiki/site;
 #     index index.html;
 # }
+```
+
+## Cloudflare Pages 部署
+
+本项目可直接通过 Cloudflare Pages 导入 Git 仓库自动构建。
+
+### 构建配置
+
+| 配置项 | 值 |
+|--------|-----|
+| Framework preset | `None` |
+| **Build command** | `pip install -r requirements.txt && mkdocs build` |
+| **Build output directory** | `site` |
+| Build image | v2（Python 默认 3.11.5，`.python-version` 已锁定 3.10） |
+| 环境变量 | `SITE_URL=https://你的域名`（缺少时回退到 localhost） |
+
+### 说明
+
+- `requirements.txt` 锁定构建依赖版本；`.python-version` 指定 Python 3.10。
+- `site_url` 通过 `SITE_URL` 环境变量注入（见 `mkdocs.yml`），用于生成 sitemap 和 canonical 链接，务必在 Cloudflare 项目设置中配置。
+- 中文站点构建在根路径，英文站点构建在 `/en/` 下，无需额外路由配置。
+- `site/` 是构建产物，已在 `.gitignore` 中忽略，无需提交。
+
+### 手动上传（可选）
+
+```bash
+mkdocs build
+npx wrangler pages deploy site --project-name=aiedge-wiki
 ```
 
 ## 主题特性

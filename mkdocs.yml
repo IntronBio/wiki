@@ -4,7 +4,9 @@
 site_name: AIEdge Wiki <small>BETA</small>
 site_description: 氢春科技 - 微型AI智能体服务器企业文档中心
 site_author: 上海氢春生物科技有限公司
-site_url: http://localhost:8000
+# 正式部署时通过环境变量 SITE_URL 注入（如 https://wiki.example.com）
+# 本地预览未设置时回退到 localhost
+site_url: !ENV [SITE_URL, 'http://localhost:8000']
 
 # ------------------------------------------------------------
 # 仓库信息（本地预览可留空，GitHub 备份后可填写）
