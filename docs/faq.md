@@ -179,7 +179,7 @@ npm update -g @anthropic-ai/claude-code
 ### Q15: 售后服务如何联系？
 
 - :material-email: 邮件：info@hybio.tech
-- :material-phone: 技术支持：17501629068（微信同号）
+- :material-phone: 技术支持：19262160086（微信同号）
 - :material-phone: 联系电话：17501621170
 - :material-clock: 工作时间：周一至周五 9:00-18:00
 - 紧急故障：4 小时内响应

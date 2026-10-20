@@ -105,7 +105,7 @@ From unboxing to agent live in **under 15 minutes**. Pure CLI operations, develo
 | Channel | Information |
 |------|------|
 | :material-email: Business | info@hybio.tech |
-| :material-headset: Tech Support | info@hybio.tech / 17501629068 (also on WeChat) |
+| :material-headset: Tech Support | info@hybio.tech / 19262160086 (also on WeChat) |
 | :material-phone: Phone | 17501621170 |
 | :material-map-marker: Address | No. 103 Caobao Road, Xuhui District, Shanghai |
 | :material-web: Website | https://www.hybio.tech |

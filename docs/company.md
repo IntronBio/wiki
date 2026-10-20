@@ -105,7 +105,7 @@ API Key 与智能体对话记忆全部存储在设备本地。API 调用仅传�
 | 渠道 | 信息 |
 |------|------|
 | :material-email: 商务合作 | info@hybio.tech |
-| :material-headset: 技术支持 | info@hybio.tech / 17501629068（微信同号） |
+| :material-headset: 技术支持 | info@hybio.tech / 19262160086（微信同号） |
 | :material-phone: 联系电话 | 17501621170 |
 | :material-map-marker: 公司地址 | 上海市徐汇区漕宝路103号 |
 | :material-web: 官方网站 | https://www.hybio.tech |

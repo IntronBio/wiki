@@ -77,7 +77,7 @@ description: AIEdge 辅助资料、工具下载与技术支持
 | 渠道 | 信息 | 响应时间 |
 |------|------|:--------:|
 | :material-email: 邮件支持 | info@hybio.tech | 48 小时内 |
-| :material-phone: 技术支持 | 17501629068（微信同号） | 工作时间即时 |
+| :material-phone: 技术支持 | 19262160086（微信同号） | 工作时间即时 |
 | :material-phone: 联系电话 | 17501621170 | 工作时间 |
 | :material-web: 在线工单 | 邮件提交 | 24 小时内 |
 

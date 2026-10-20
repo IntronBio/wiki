@@ -179,7 +179,7 @@ npm update -g @anthropic-ai/claude-code
 ### Q15: How to contact after-sales support?
 
 - :material-email: Email: info@hybio.tech
-- :material-phone: Tech Support: 17501629068 (also on WeChat)
+- :material-phone: Tech Support: 19262160086 (also on WeChat)
 - :material-phone: Phone: 17501621170
 - :material-clock: Business hours: Mon–Fri 9:00–18:00 (Beijing Time)
 - Emergency faults: response within 4 hours

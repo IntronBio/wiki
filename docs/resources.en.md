@@ -77,7 +77,7 @@ description: AIEdge supplementary materials, tool downloads & technical support
 | Channel | Info | Response Time |
 |------|------|:--------:|
 | :material-email: Email Support | info@hybio.tech | Within 48 hours |
-| :material-phone: Tech Support | 17501629068 (also on WeChat) | Immediate during business hours |
+| :material-phone: Tech Support | 19262160086 (also on WeChat) | Immediate during business hours |
 | :material-phone: Phone | 17501621170 | Business hours |
 | :material-web: Online Ticket | Submit via email | Within 24 hours |
 
